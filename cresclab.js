@@ -1,3 +1,4 @@
+alert("123");
 var v = "{{ order.order_number }}";
 Shopify.Checkout.OrderStatus.addContentBox(
     '<h2>' + v + 'Pick-up in store</h2>',
