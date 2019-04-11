@@ -1,6 +1,5 @@
-alert("123");
-var v = "{{ order.order_number }}";
 Shopify.Checkout.OrderStatus.addContentBox(
-    '<h2>' + v + 'Pick-up in store</h2>',
-    '<p>We are open everyday from 9am to 5pm.</p>'
+    '<h2>Get Order Updates</h2>',
+    '<p>Get your receipt and shipping updates on Line</p>',
+    '<a href="test">cresclab</a>/'
 );
